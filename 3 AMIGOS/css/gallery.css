@@ -1,0 +1,204 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header img{ width: 120px;}
+
+body {	background-image: url(../images/blue.jpg);
+		background-attachment: fixed;}
+
+h2{
+		font-size: 30px;
+		color: #4A278A; 
+		font-weight: bold;
+		width: 100%;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		text-align: center;}
+
+
+h3{
+		font-size: 48px;
+		color: #4A278A; 
+		font-weight: bold;
+		width: 100%;
+		margin-top: 3em;
+		margin-bottom: 2em;
+		text-align: center;}
+
+ul {
+  margin-top: 2px;
+  width: 100%;
+  list-style-type: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #DEFDFF;
+}
+
+li a:hover:not(.active) {
+  background-color: #045FB4;
+}
+body{	
+	background-attachment: fixed}
+
+.frase{
+	width: 40%;
+	float: left;
+	margin-top: 3em;
+	margin-bottom: : 3em;
+}
+
+.postal{
+	width: 50%;
+	margin-top: 3em;
+	margin-bottom: : 3em;
+	padding: 1em;
+	float: right;
+}
+
+.postal img{
+	width: 85%;
+}
+
+.analogo{
+	width: 30%;
+	margin-left: 120px;
+	padding: 1em;
+	float: left;
+}
+
+.digital{
+	width: 30%;
+	margin-right: 200px;
+	padding: 1em;
+	float: right;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+div.gallery:hover {
+  border: 2px solid #fff;
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+.acercar {
+	width: 100%;
+	float: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;}
+}
+
+.pie-pagina {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+
+footer img{ width: 25px;
+			height: 25px;
+ }
+
+@media screen and (min-width: 300px) and (max-width: 780px){
+
+h2{
+		font-size: 20px;
+		color: #08088A; 
+		font-weight: bold;
+		width: 100%;
+		margin-top: 5em;
+		margin-bottom: 1em;
+		text-align: center;}
+
+h3{
+		font-size: 20px;
+		color: #08088A; 
+		font-weight: bold;
+		width: 100%;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		text-align: center;}
+
+.frase{
+	width: 100%;
+}
+
+.postal{
+	width: 100%;
+	margin-top: 3em;
+	margin-bottom: : 3em;
+	padding: 1em;
+	float: center;
+}
+.analogo{
+	width: 50%;
+	margin-left: 70px;
+	padding: 2em;
+}
+
+.digital{
+	width: 50%;
+	margin-right: 80px;
+	padding: 2em;
+}
+
+ .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+.pie-pagina {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.acercar {
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

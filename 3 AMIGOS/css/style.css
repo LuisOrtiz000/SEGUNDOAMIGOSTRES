@@ -1,0 +1,228 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+header img{ width: 120px;}
+
+body {	background-image: url(../images/blue.jpg);
+    }
+
+h2{
+		font-size: 35px;
+		color: #4A278A; 
+		font-weight: bold;
+		width: 100%;
+		margin-bottom: 1em;
+		margin-top: 1em;
+		text-align: center;}
+
+
+h3{
+		font-size: 48px;
+		color: #4A278A; 
+		font-weight: bold;
+		text-align: center;}
+
+ul {
+  margin-top: 2px;
+  width: 100%;
+  list-style-type: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 25px;
+  background-color: #DEFDFF;
+}
+
+li a:hover:not(.active) {
+  background-color: #045FB4;
+}
+body{	
+	background-attachment: fixed}
+
+.frase{
+	width: 40%;
+	float: left;
+	margin-top: 12em;
+	margin-left: 5em;
+	display: inline-block;
+}
+
+.postal{
+	width: 50%;
+	margin-top: 5em;
+	float: left;
+}
+
+.postal img{
+	width: 80%;
+	margin-left: 60px;
+}
+
+.analogo{
+	width: 30%;
+	margin-left: 120px;
+	padding: 1em;
+	float: left;
+	display: inline-block;
+}
+
+.digital{
+	width: 30%;
+	margin-right: 200px;
+	padding: 1em;
+	float: right;
+	display: inline-block;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+.acercar {
+	width: 100%;
+	padding: 1em;
+	display: inline-flex;
+}
+
+.acercar div p{
+	font-size: 20px;
+	margin-bottom: 1em;
+	width: 80%; 
+	margin-left: 52px;
+	text-align: justify;
+}
+
+.acercar figure {
+	width: 40%;
+}
+
+.acercar figure img{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.pie-pagina {
+	width: 100%;
+	margin-top: 5em;
+	display: inline-block;
+}
+
+footer img{ width: 25px;
+			height: 25px;
+ }
+
+@media screen and (min-width: 100px) and (max-width: 800px){
+
+h2{
+		font-size: 20px;
+		color: #08088A; 
+		font-weight: bold;
+		width: 100%;
+		margin-top: 5em;
+		margin-bottom: 1em;
+		text-align: center;}
+
+h3{
+		font-size: 20px;
+		color: #08088A; 
+		font-weight: bold;}
+
+.frase{
+	width: 80%;
+	margin-top: 4em;
+	margin-left: 2em;
+	display: inline-block;
+}
+
+.postal{
+	width: 80%;
+	margin-top: 5em;
+	margin-left: 25px;
+}
+
+.analogo{
+	width: 50%;
+	margin-left: 65px;
+}
+
+.digital{
+	width: 50%;
+	margin-right: 80px;
+}
+
+ .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+.pie-pagina {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.acercar {
+	display: block;
+}
+
+.acercar figure {
+margin: 0 auto;
+width: 60%;
+}
+
+.acercar div p{
+	margin-bottom: 1em;
+	width: 100%;
+	text-align: justify;
+	margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
